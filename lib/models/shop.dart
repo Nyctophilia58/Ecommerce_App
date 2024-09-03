@@ -5,32 +5,32 @@ import 'package:flutter/material.dart' ;
 class Shop extends ChangeNotifier {
   final List<Product> _shop = [
     Product(
-      name: "Product 1",
-      description: "Description of Product 1",
-      price: 99.99,
-      // imagePath: "assets/images/product1.jpg",
+      name: "CONFU Hair Dryer",
+      description: "High-performance ionic hairdryer designed for salon-quality results and reduced frizz.",
+      price: 129.99,
+      imagePath: "lib/assets/images/Product_1.jpg",
     ),
     Product(
-      name: "Product 2",
-      description: "Description of Product 2",
-      price: 199.99,
-      // imagePath: "assets/images/product2.jpg",
-    ),
-    Product(
-      name: "Product 3",
-      description: "Description of Product 3",
+      name: "Slip-On Sneaker",
+      description: "Effortlessly stylish and comfortable slip-on sneakers, perfect for casual wear.",
       price: 299.99,
-      // imagePath: "assets/images/product3.jpg",
+      imagePath: "lib/assets/images/Product_2.jpg",
     ),
     Product(
-      name: "Product 4",
-      description: "Description of Product 4",
-      price: 399.99,
-      // imagePath: "assets/images/product4.jpg",
+      name: "Unisex Black Hoodie",
+      description: "A versatile black hoodie featuring the Peer logo, offering comfort and a sleek look.",
+      price: 149.99,
+      imagePath: "lib/assets/images/Product_3.jpg",
+    ),
+    Product(
+      name: "Florentin Sunglasses",
+      description: "Chic black sunglasses with green lenses, blending fashion with UV protection.",
+      price: 99.99,
+      imagePath: "lib/assets/images/Product_4.jpg",
     ),
   ];
 
-  List<Product> _cart = [];
+  final List<Product> _cart = [];
 
   List<Product> get shop => _shop;
 
